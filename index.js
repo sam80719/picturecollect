@@ -1,6 +1,7 @@
 const request = require("request");
 const cheerio = require("cheerio");
 const fs = require("fs");
+// const superagent = request("superagent");
 
 
 var url = 'http://www.timliao.com/bbs/viewthread.php?tid=78410'
@@ -15,3 +16,7 @@ request(url, (err, res, body) => {
      console.log('error 404');  
     }
 })
+
+
+
+
